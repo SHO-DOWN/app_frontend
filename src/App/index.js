@@ -3,7 +3,21 @@ import { Redirect, Route, withRouter } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 const routes = [
-  
+  {
+    path: "/",
+    exact: true,
+    Component: lazy(() => import("./Screens/Home/index")),
+  },
+  {
+    path: "/login",
+    exact: true,
+    Component: lazy(() => import("./Screens/Login/index")),
+  },
+  {
+    path: "/signup",
+    exact: true,
+    Component: lazy(() => import("./Screens/Signup/index")),
+  },
 ];
 
 class App extends React.Component {
