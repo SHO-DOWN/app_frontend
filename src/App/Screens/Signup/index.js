@@ -21,7 +21,7 @@ export class SignUp extends Component {
           <div className="col-lg-5 px-2 py-4">
             <div className="text-center mt-2">
               <img src={logo1} height="150px" />
-              <div className="text-primary-2 fs-26">Login</div>
+              <div className="text-primary-2 fs-26">Sign Up</div>
             </div>
 
             <div className="row mt-5 pt-2 justify-content-center ">
